@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import cn from "./style.module.scss"
+
 const TodoInput = ({ onAddTask }) => {
   const [newTask, setNewTask] = useState('');
 
