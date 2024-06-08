@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+
 import cn from "./style.module.scss"
+
 const TodoItem = ({ task, onEditTask, onDeleteTask }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [editedText, setEditedText] = useState(task.text);

@@ -1,5 +1,7 @@
 import React from 'react';
+
 import TodoItem from '../TodoItem/TodoItem';
+
 import cn from "./style.module.scss"
 
 const TodoList = ({ tasks, onToggleTask, onEditTask, onDeleteTask }) => {
