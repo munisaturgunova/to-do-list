@@ -1,0 +1,34 @@
+.checked{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    input{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid rgb(171, 234, 255);
+    }
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.edit{
+    background-color:#b0dede;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+
+    padding: 10px 30px;
+}
+.delit{
+    background-color:rgb(255, 72, 72);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+}
